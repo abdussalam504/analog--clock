@@ -15,8 +15,17 @@ body {
 }
 
 .clock {
-   width: 400px;
-   height: 400px;
+    h3{
+        position: absolute;
+        left: 30%;
+        bottom: 22%;
+        font-size: 1.5rem;
+        text-transform: capitalize;
+        color: blue;
+
+    }
+    width: 400px;
+    height: 400px;
     background-color: #ffff;
     border-radius: 50%;
     position: relative;
@@ -183,7 +192,7 @@ body {
 }
 
  /* Small devices (landscape phones, 576px and up) */
-@media (max-width: 576px) { 
+@media (max-width: 576px) {    
 .clock{
     width: 250px;
     height: 250px;
